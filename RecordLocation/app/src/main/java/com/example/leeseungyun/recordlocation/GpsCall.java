@@ -25,8 +25,8 @@ public class GpsCall extends Service implements LocationListener {
     double lat = 0; //위도
     double lon = 0; //경도
 
-    private static final long UPDATE_TIME = 1;
-    private static final long UPDATE_DISTANCE = 0;
+    private static final long UPDATE_TIME = 10000;
+    private static final long UPDATE_DISTANCE = 1;
 
     protected LocationManager locationManager;
 
