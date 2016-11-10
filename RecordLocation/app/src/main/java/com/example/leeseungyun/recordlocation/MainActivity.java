@@ -23,6 +23,9 @@ public class MainActivity extends Activity {
 
     private GpsCall gps;
 
+    double latitude_arr[] = new double[10];
+    double longitude_arr[] = new double[10];
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
