@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFE5C2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -35,7 +36,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GPS 확인"
+        android:text="좌표확인"
         android:id="@+id/gpscall"
         android:layout_below="@+id/lattext"
         android:layout_alignParentLeft="true"
@@ -45,7 +46,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="지도"
+        android:text="지도보기"
         android:id="@+id/mapview"
         android:layout_alignTop="@+id/gpscall"
         android:layout_centerHorizontal="true" />
@@ -61,13 +62,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/mapview"
         android:id="@+id/reset"
-        android:text="리셋"
-        android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:text="통계"
+        android:layout_alignTop="@+id/mapview"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -79,5 +78,43 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="430dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton1"
+            android:text="공부"
+            android:textColor="#B95AFF"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:text="식사"
+            android:textColor="#5AAEFF"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:text="여행"
+            android:textColor="#3B00DB"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4"
+            android:text="기타"
+            android:textColor="#00B700"/>
+    </RadioGroup>
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analogClock"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/reset"
+        android:layout_toStartOf="@+id/reset" />
 
 </RelativeLayout>
