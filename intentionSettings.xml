@@ -4,5 +4,6 @@
     <ignoreAction name="Java/Declaration/Move assignment to field declaration" />
     <ignoreAction name="Java/Control Flow/Invert 'if' condition" />
     <ignoreAction name="Java/Control Flow/Remove Braces" />
+    <ignoreAction name="Java/Refactorings/Introduce local variable" />
   </component>
 </application>
