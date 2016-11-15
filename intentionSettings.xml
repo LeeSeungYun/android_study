@@ -5,5 +5,6 @@
     <ignoreAction name="Java/Control Flow/Invert 'if' condition" />
     <ignoreAction name="Java/Control Flow/Remove Braces" />
     <ignoreAction name="Java/Refactorings/Introduce local variable" />
+    <ignoreAction name="Java/Numbers/Convert to Octal" />
   </component>
 </application>
