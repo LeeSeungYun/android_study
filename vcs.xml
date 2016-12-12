@@ -18,6 +18,10 @@
           <option name="url" value="https://github.com/LeeSeungYun/MobileProgram_AndroidStudio.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/LeeSeungYun/android_study-1.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Lee Seung Yun\AndroidStudioProjects" />
