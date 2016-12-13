@@ -26,6 +26,10 @@
           <option name="url" value="https://github.com/LeeSeungYun/InhandMilk.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/LeeSeungYun/final_exam.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Lee Seung Yun\AndroidStudioProjects" />
